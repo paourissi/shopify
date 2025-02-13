@@ -1,0 +1,98 @@
+.cart-page {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  color: black;
+}
+
+.cart-page h2 {
+  text-align: center;
+}
+
+.cart-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-page li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-quantity span {
+  flex-basis: 33.3%;
+}
+
+.product-quantity svg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.product-quantity input {
+  margin-left: 10px;
+  width: 40px;
+}
+
+.discount-section {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-flow: row wrap;
+}
+
+.discount-section input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.discount-section span {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.discount-section button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.discount-section button:hover {
+  background: #218838;
+}
+
+.complete-order {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.complete-order button {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 15px 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 500px;
+  background-color: #333;
+}
+
+.complete-order button:hover {
+  background-color: grey;
+}
